@@ -165,3 +165,20 @@ input:checked+.slider:before {
 .card__p--purple:nth-of-type(3) {
     border-bottom: 0.25px solid white;
 }
+
+@media screen and (min-width:700px){
+    body{
+        background-image: url("images/bg-top.svg"), url("images/bg-bottom.svg");
+        background-size: auto;
+        background-position: top right, bottom left;
+    }
+
+    .container{
+        display: flex;
+        justify-content: center;
+    }
+
+    .card{
+        margin: 0px;
+    }
+}
